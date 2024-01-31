@@ -1,0 +1,33 @@
+subject,sem,total count,theory count in week,practical count in week
+Statistics method,sem 4,30,2,2
+Introduction to data signal and image analysis,sem 4,45,3,2
+Web programming,sem 4,30,2,2
+Database management systems,sem 4,30,2,2
+Machine learning,sem 4,45,3,2
+Data handing and visualization,sem 4,15,1,2
+Calculus,sem 1,45,3,1
+Elements of biology,sem 1,45,3,0
+Programming for problem solving,sem 1,30,2,4
+Basic electrical and electronics engineering,sem 1,30,2,2
+Engineering graphics and design,sem 1,30,2,2
+English communication,sem 1,15,0,2
+Professional ethics,sem 1,15,1,0
+Constitution of India,sem 1,15,1,0
+Design Thinking,sem 1,15,2,0
+Linear algebra and differential equations,sem 2,45,3,1
+Digital manufacturing laboratory,sem 2,30,0,2
+Electrical and electronic workshop,sem 2,30,0,2
+Environmental science,sem 2,15,1,1
+Python for data analysis,sem 2,15,1,2
+Physics,sem 2,45,3,2
+Digital circuits and computer architecture and lab,sem 2,45,3,2
+Principles of economics,sem 2,45,3,0
+Critical thinking,sem 2,30,2,0
+probability and statistics,sem 3,30,2,2
+Data wrangling,sem 3,15,1,4
+Optimization methods,sem 3,45,3,2
+Discrete mathematics,sem 3,30,2,1
+Data structures and algorithms,sem 3,45,3,2
+Management accounting for engineers,sem 3,30,2,0
+Technical communication,sem 3,15,0,1
+No subjects,sem 5,0,0,0
