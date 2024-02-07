@@ -86,13 +86,13 @@ def plot_percentage_bar_graph_s(percentage):
 tab1 = tb.Frame(my_notebook)
 my_notebook.add(tab1, text="Semester attendance")
 
-my_label1 = tb.Label(tab1, text="Semester attendance", font=("Helvetica", 30)).pack(pady=20)
+my_label1 = tb.Label(tab1, text="Semester Attendance", font=("Helvetica", 30)).pack(pady=20)
 
 # Inside tab1 (the first page of the notebook)
 s_percent_frame = tb.Frame(tab1, bootstyle="dark")
 s_percent_frame.pack(side='left', pady=20)
 
-tb.Label(s_percent_frame, text="Check semester attendance?", bootstyle="white", font=("Helvetica", 20)).pack(pady=20)
+tb.Label(s_percent_frame, text="Check Semester Attendance?", bootstyle="white", font=("Helvetica", 20)).pack(pady=20)
 
 def update_subjects_s1(event):
     semester = sem_combo_s1.get()
@@ -193,7 +193,7 @@ s_estimate_frame = tb.Frame(tab1, bootstyle="dark")  # Subframe for semester per
 s_estimate_frame.pack(side='right', pady=20)
 
 # Add widgets for estimation within the subtract_frame
-tb.Label(s_estimate_frame, text="Total semester leaves?", bootstyle="white",font=("Helvetica",20)).pack(pady=20)
+tb.Label(s_estimate_frame, text="Total Semester Leaves?", bootstyle="white",font=("Helvetica",20)).pack(pady=20)
 
 def calculate_estimation_s():
     # Get values from entry3 and entry4, perform subtraction, and display result
@@ -337,9 +337,9 @@ tb.Button(s_estimate_frame, text="Estimate Leaves",bootstyle="primary-outline", 
 
 
 tab2=tb.Frame(my_notebook)
-my_notebook.add(tab2, text="Monthly attendance")
+my_notebook.add(tab2, text="Monthly Attendance")
 
-my_label2 = tb.Label(tab2, text="Monthly attendance", font=("Helvetica", 30)).pack(pady=20)
+my_label2 = tb.Label(tab2, text="Monthly Attendance", font=("Helvetica", 30)).pack(pady=20)
 
 def calculate_percentage_m():
     try:
@@ -408,14 +408,14 @@ def plot_percentage_bar_graph_m(percentage):
 m_percent_frame = tb.Frame(tab2, bootstyle="dark")
 m_percent_frame.pack(side='left', pady=20)
 
-tb.Label(m_percent_frame, text="Confirm monthly attendance up to now?", bootstyle="white", font=("Helvetica", 20)).pack(pady=20)
+tb.Label(m_percent_frame, text="Confirm Monthly Attendance Up To Now?", bootstyle="white", font=("Helvetica", 20)).pack(pady=20)
 
 def update_subjects_m1(event):
     semester = sem_combo_m1.get()
     subjects_df = values_df[values_df['sem'] == semester]
     sub_combo_m1["values"] = subjects_df['subject'].tolist()
 
-sem_label_m1 = tb.Label(m_percent_frame, text="month:", bootstyle="default")
+sem_label_m1 = tb.Label(m_percent_frame, text="Semester:", bootstyle="default")
 sem_label_m1.pack()
 
 sem_combo_m1 = tb.Combobox(m_percent_frame, values=["sem 1", "sem 2", "sem 3", "sem 4", "sem 5"], state="readonly",width=40)
@@ -485,7 +485,7 @@ m_estimate_frame = tb.Frame(tab2, bootstyle="dark")  # Subframe for semester per
 m_estimate_frame.pack(side='right', pady=20)
 
 # Add widgets for month widgets
-tb.Label(m_estimate_frame, text="Mid-semester leave estimate?", bootstyle="white",font=("Helvetica",20)).pack(pady=20)
+tb.Label(m_estimate_frame, text="Mid-Semester Leave Estimate?", bootstyle="white",font=("Helvetica",20)).pack(pady=20)
 
 def calculate_estimation_m():
     # Get values from entry3 and entry4, perform subtraction, and display result
