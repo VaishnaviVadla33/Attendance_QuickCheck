@@ -1,5 +1,6 @@
 # Attendance Calculator-A QuickCheck
 
+![](https://github.com/VaishnaviVadla33/Attendance_QuickCheck/blob/main/QuickCheck.png)
 # Overview:
 Welcome to the Attendance Calculator project! This Python-based tool is crafted to simplify attendance tracking for NMIMS Hyderabad STME students (CSE-DS branch). It offers swift calculations through a terminal-based code and an interactive tkinter interface.
 
